@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@1,500&display=swap"
+          rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Dancing Script", cursive;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+        }
+        body {
+            background-color: antiquewhite;
+            position: relative;
+        }
+
+        .container {
+
+            margin-top: 5%;
+            /*background-color: aquamarine;*/
+            width: 1000px;
+            height: 800px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+        }
+
+        .conten {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        h2, p {
+            margin: 10px 0;
+        }
+
+        span {
+            font-weight: bold;
+
+        }
+
+        a {
+            list-style-type: none;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="conten">
+        <img src="./img/avata.jpg" alt="avata">
+        <h2>Nguyễn Văn A</h2>
+
+        <p><span>Địa chỉ:</span> Đống Đa - Hà Nội</p>
+        <p><span>Phone:</span> 0123456789</p>
+        <p><span>Email:</span> avd@gmail.com</p>
+        <a href="https://www.youtube.com/">Youtobe</a>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cjxHdNywccM?si=zfxPqe85ukYlE5oP"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+    </div>
+</div>
+</body>
+</html>
